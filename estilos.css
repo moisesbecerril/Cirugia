@@ -4,6 +4,6 @@ h1 {font-size: 300%;text-align:center; text-transform: uppercase; color:red}
 h2 {font-size: 200%;text-transform: uppercase; color:blue}
 p {font-size: 100%; color: white;}
 span{font-size: 500%; color: white}
-ol {font-size: 600%; color: white;}
+ol {font-size: 125%; color: white;}
 table {border: 4px double black; border-collapse: collapse}
 th, td{text-transform: uppercase; border: 2px solid black; background-color: beige; padding: 6px }
