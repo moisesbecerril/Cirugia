@@ -1,4 +1,5 @@
 body {background-color: black}
+section{padding: 6px}
 hr {border: 2px solid white}
 h1 {font-size: 300%;text-align:center; text-transform: uppercase; color:red}
 h2 {font-size: 200%;text-transform: uppercase; color:blue}
