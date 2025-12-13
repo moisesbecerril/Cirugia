@@ -3,7 +3,7 @@ section{padding: 60px}
 hr {border: 2px solid white}
 h1 {font-size: 300%;text-align:center; text-transform: uppercase; color:red}
 h2 {font-size: 200%;text-transform: uppercase; color:blue}
-p {font-size: 100%; color: white;}
+p {font-size: 200%; color: white;}
 span{font-size: 500%; color: white}
 ol {font-size: 350%; color: white;}
 table {border: 4px double black; border-collapse: collapse}
