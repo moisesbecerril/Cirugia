@@ -1,0 +1,10 @@
+body { font-size: 20px;}
+/* Estilos para Tabletas y PC (ej. menos de 1024px) */
+@media (min-width: 1024px) {
+    body{font-size: 20px}
+}
+/* Estilos para Móviles (ej. menos de 768px) */
+@media (min-width: 768px) {
+    
+    body { font-size: 30px; } /* Reduce texto */
+}

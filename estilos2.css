@@ -1,10 +1,11 @@
-body {background-color: black}
+
+body {background-color: white}
 section{padding: 60px}
 nav {padding: 60px; font-size: 100%;}
-hr {border: 2px solid white}
-h1 {font-size: 300%;text-align:center; text-transform: uppercase; color:red}
-h2 {font-size: 200%;text-transform: uppercase; color:beige}
-p {font-size: 200%; color: white;}
+hr {border: 5px solid black}
+h1 {font-size: 400%;text-align:center; text-transform: uppercase; color:red}
+h2 {font-size: 300%;text-transform: uppercase; color:beige}
+p {font-size: 200%; color: black;}
 span{font-size: 500%; color: white}
 ol {font-size: 350%; color: white;}
 table {border: 4px double black; border-collapse: collapse}
