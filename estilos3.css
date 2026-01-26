@@ -6,14 +6,16 @@
 /* Estilos para Móviles (ej. menos de 768px) */
 @media (max-width: 768px) {
     
-    body { background-color:white; font-size: 20px;  } /* Reduce texto */
+    body { background-color:white; 
+           font-size: 20px;  } /* Reduce texto */
     h1{text-align: center;}
     h2{text-align: center;}
-    hr{color:black; border: 3px solid;}
+    hr{border: 3px solid black;}
     ul {display: none;}
+    li{text-transform: uppercase;}
     input:checked ~ ul {display:block;}
     input {display:none}
-    label{font-size: 30px;
-          text-align: center;
-          border: solid, black;
+    label{font-size: 30px;/*caracteristicas del icono hamburguesa*/
+          border: 5px solid black;
+          border-radius: 10px;
           padding: 10px;}
