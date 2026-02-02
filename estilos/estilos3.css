@@ -19,14 +19,14 @@
 @media (max-width: 768px) {
     
     body { background-color:white; 
-           font-size: 6vw;
+           font-size: 5vw;
              }
     h1{text-align: center;}
     hr{border: 3px solid black;}
     .menuindex{text-transform: uppercase;}
     span{font-size: 40px;}
     /*MENU HAMBURGUESA*/
-    .menu-hamburguesa {display: none;}
+    .menu-hamburguesa {display:none;}
     input:checked ~ ul {display:block;}/* aparece y desaparece un menu o lista echa con ul*/
     input {display:none}
     label{font-size: 30px;/*caracteristicas del icono hamburguesa*/
