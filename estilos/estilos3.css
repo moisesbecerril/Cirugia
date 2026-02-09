@@ -17,19 +17,34 @@
 }
 /* Estilos para Móviles (ej. menos de 768px) */
 @media (max-width: 768px) {
-    
+
     body { background-color:white; 
            font-size: 5vw;
+           padding: 5vw;
              }
+    figure {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center   
+            }
+    img{width: 60vw;
+           }
+    /*header{background-color:aqua;
+            border-radius: 10px;}*/
     h1{text-align: center;}
     hr{border: 3px solid black;}
+    span{font-size: 7vw;}
     .menuindex{text-transform: uppercase;}
-    span{font-size: 40px;}
     /*MENU HAMBURGUESA*/
-    .menu-hamburguesa {display:none;}
+    .menu-hamburguesa {display:none;
+                        background-color:aquamarine;
+                        border-radius: 15px;
+                        padding: 10vw; }
     input:checked ~ ul {display:block;}/* aparece y desaparece un menu o lista echa con ul*/
     input {display:none}
-    label{font-size: 30px;/*caracteristicas del icono hamburguesa*/
+    label{
+          font-size: 30px;/*caracteristicas del icono hamburguesa*/
           border: 5px solid black;
           border-radius: 10px;
           padding: 10px;}}
